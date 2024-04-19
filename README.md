@@ -7,9 +7,16 @@
   <title>Rohan Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -109,6 +116,40 @@
     </div>
   </div>
   <!-- /hero-->
+
+  <!--About Us-->
+  <div class="about-us">
+    <div class="container">
+      <h1 class="main-title">About Us</h1>
+      <h2 class="sub-heading">Hi, I’m <span class="rr" style="color: #101010">Rohan De</span></h2>
+      <p class="subtitle">I’m a designer & developer with a passion for web design. I enjoy developing
+        simple, clean and slick websites that provide real value to the end user.
+        Thousands of clients have procured exceptional results while working with me.
+        Delivering work within time and budget which meets client’s requirements is our
+        moto.</p>
+      <div class="text-first">
+        <div class="row align-items-start detail-container">
+          <div class="col my-detail">
+            <span>Name:</span>
+            <p>Rohan De</p>
+          </div>
+          <div class="col my-detail">
+            <span>Email:</span>
+            <p>rohan@gmail.com</p>
+          </div>
+          <div class="col my-detail">
+            <span>Date of birth:</span>
+            <p>24 February 2002</p>
+          </div>
+          <div class="col my-detail">
+            <span>From:</span>
+            <p>Dhaniakhali,hooghly</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /About US-->
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
