@@ -9,7 +9,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,9 @@
 <body>
   <nav class="navbar navbar-expand-lg ">
     <div class="container">
-      <a class="navbar-brand text-dark" href="#">Rohan</a>
+      <a class="navbar-brand text-dark" href="#">
+        <img src="images/logo.svg" alt="Bootstrap" width="129" height="">
+      </a>
       <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,7 +34,9 @@
       <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Rohan</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img src="images/logo.svg" alt="Bootstrap" width="100" height="">
+          </h5>
           <button type="button" class="btn-close btn-close-black border-0 shadow-none" data-bs-dismiss="offcanvas"
             aria-label="Close"></button>
         </div>
@@ -118,6 +123,9 @@
 
   <!--About Us-->
   <div class="about-us">
+    <!-- <div class="background-vectors">
+      <img id="vector-2" src="images/background-vector2.svg" alt="">
+    </div> -->
     <div class="container">
       <h1 class="main-title">About Us</h1>
       <h2 class="sub-heading">Hi, I’m <span class="rr" style="color: #101010">Rohan De</span></h2>
@@ -134,7 +142,7 @@
           </div>
           <div class="col my-detail">
             <span>Email:</span>
-            <p>rohan@gmail.com</p>
+            <p>rohande2402@gmail.com</p>
           </div>
           <div class="col my-detail">
             <span>Date of birth:</span>
@@ -142,13 +150,63 @@
           </div>
           <div class="col my-detail">
             <span>From:</span>
-            <p>Dhaniakhali,hooghly</p>
+            <p>Dhaniakhali, Hooghly</p>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- /About US-->
+
+  <!--services-->
+  <div class="services">
+    <div class="container">
+      <h1 class="main-title">Services</h1>
+      <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+        ipsum sit nibh amet egestas tell us.</p>
+      <div class="vector-3">
+        <img id="vector-3" src="images/background-vector2.svg" alt="">
+      </div>
+      <div class="row align-items-start detail-container service">
+        <div class="col my-services">
+          <span>Web Developer</span>
+          <p>Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry’s standard
+            dummy text.</p>
+        </div>
+        <div class="col my-services">
+          <span>Web Design</span>
+          <p>Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry’s standard
+            dummy text.</p>
+        </div>
+        <div class="col my-services">
+          <span>UI/UX Design</span>
+          <p>Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry’s standard
+            dummy text.</p>
+        </div>
+        <div class="col my-services">
+          <span>PSD to HTML</span>
+          <p>Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry’s standard
+            dummy text.</p>
+        </div>
+        <div class="col my-services">
+          <span>Figma Design</span>
+          <p>Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem
+            Ipsum has been the industry’s standard
+            dummy text.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ services-->
 
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
