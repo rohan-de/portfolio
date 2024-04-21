@@ -1,0 +1,149 @@
+@media only screen and (max-width:480px) {
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .my-image img {
+    width: 240px;
+  }
+
+  .scrolling-words-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    margin: 0 !important;
+  }
+
+  .subtitle {
+    box-sizing: border-box;
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+
+  .hero-row {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-flex {
+    display: grid !important;
+  }
+
+  .box::after {
+    backdrop-filter: blur(80px);
+    background: #ffffffa6;
+  }
+
+  .my-detail,
+  .my-services {
+    margin: 0 12px;
+    width: -webkit-fill-available;
+  }
+
+  .main-title {
+    font-size: 2.1rem;
+  }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .my-image img {
+    width: 240px;
+  }
+
+  .scrolling-words-container {
+    /* flex-direction: column; */
+    align-items: baseline;
+    font-size: 2rem;
+    gap: 0 5px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    margin: 0 !important;
+  }
+
+  .subtitle {
+    width: -webkit-fill-available;
+  }
+
+  .detail-container {
+    width: 100%;
+  }
+
+  .my-services {
+    width: 45%;
+  }
+
+  /* .service {
+    width: auto !important;
+  } */
+  img#vector-1 {
+    left: -140px;
+    rotate: 269deg;
+    top: -20px;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+
+  .my-image img {
+    width: 240px;
+  }
+
+  .scrolling-words-container {
+    /* flex-direction: column; */
+    align-items: baseline;
+    font-size: 2rem;
+    gap: 0 5px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    margin: 0 !important;
+  }
+
+  .subtitle {
+    width: -webkit-fill-available;
+  }
+
+  img#vector-1 {
+    width: 200px;
+  }
+
+  .detail-container {
+    width: 100%;
+  }
+
+  .my-services {
+    width: 48%;
+  }
+  .vector-3 {
+    position: relative;
+  }
+  #vector-3 {
+    right: -150px;
+    bottom: -997px;
+  }
+}
