@@ -50,6 +50,9 @@
   .main-title {
     font-size: 2.1rem;
   }
+  .skills-container {
+    width: -webkit-fill-available;
+  }
 }
 
 @media only screen and (min-width:481px) and (max-width:768px) {
@@ -86,7 +89,7 @@
   }
 
   .my-services {
-    width: 45%;
+    width: 48%;
   }
 
   /* .service {
@@ -96,6 +99,9 @@
     left: -140px;
     rotate: 269deg;
     top: -20px;
+  }
+  .skills-container {
+    width: 48%;
   }
 }
 
@@ -145,5 +151,8 @@
   #vector-3 {
     right: -150px;
     bottom: -997px;
+  }
+  .skills-container {
+    width: 48%;
   }
 }

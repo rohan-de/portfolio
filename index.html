@@ -46,13 +46,13 @@
               <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item text-dark">
-              <a class="nav-link text-secondary" href="#">About</a>
+              <a class="nav-link text-secondary" href="#scrollspyHeading1">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Services</a>
+              <a class="nav-link text-secondary" href="#scrollspyHeading2">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Skills</a>
+              <a class="nav-link text-secondary" href="#scrollspyHeading3">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-secondary" href="#">Portfoilio</a>
@@ -122,7 +122,7 @@
   <!-- /hero-->
 
   <!--About Us-->
-  <div class="about-us">
+  <div class="about-us bg" id="scrollspyHeading1">
     <!-- <div class="background-vectors">
       <img id="vector-2" src="images/background-vector2.svg" alt="">
     </div> -->
@@ -159,7 +159,7 @@
   <!-- /About US-->
 
   <!--services-->
-  <div class="services">
+  <div class="services" id="scrollspyHeading2">
     <div class="container">
       <h1 class="main-title">Services</h1>
       <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
@@ -208,6 +208,49 @@
   </div>
   <!--/ services-->
 
+  <!--skills-->
+  <div class="skills bg" id="scrollspyHeading3">
+    <div class="container">
+      <h1 class="main-title">My Skills</h1>
+      <div class="container text-center skills-g mt-4 mb-3">
+        <div class="row align-items-start sr-vc">
+          <div class="col skills-container">
+            <img src="images/ux.svg" alt="" width="59" height="59">
+            <p>UI/UX Design</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/html-icon.svg" alt="" width="59" height="59">
+            <p>HTML5</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/css-icon.svg" alt="" width="59" height="59">
+            <p>CSS3</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/logos_javascript.svg" alt="" width="59" height="59">
+            <p>JavaScript</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/Bootstrap-logo.svg" alt="" width="59" height="59">
+            <p>Bootstrap</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/jquery-logo.svg" alt="" width="59" height="59">
+            <p>JQuery</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/figma-icon.svg" alt="" width="59" height="59">
+            <p>Figma</p>
+          </div>
+          <div class="col skills-container">
+            <img src="images/photoshop-icon.svg" alt="" width="59" height="59">
+            <p>Photoshop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Skills-->
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
