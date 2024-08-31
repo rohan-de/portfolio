@@ -16,6 +16,7 @@
   top: 0;
   background: transparent;
   background-color: unset !important;
+  z-index: 1;
 }
 
 .offcanvas-header {
@@ -357,8 +358,7 @@ span.title-text {
   margin: 10px 0 0 0;
 }
 
-.hero-first-col,
-.detail-container {
+.hero-first-col {
   animation: fadeInDown 1.5s ease-out forwards;
   z-index: -1;
 
@@ -406,4 +406,37 @@ img#vector-1 {
   to {
     opacity: 1;
   }
+}
+
+.detail-container {
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.detail-container.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contents {
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.contents.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sr-vc {
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.sr-vc.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
