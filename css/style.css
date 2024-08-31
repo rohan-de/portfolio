@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .navbar {
   backdrop-filter: blur(20px);
   color: #fff;
@@ -71,7 +77,7 @@ span.title-text {
   color: #696969;
   font-size: 1.125rem;
   line-height: 202%;
-  width: 70%;
+  /* width: 70%; */
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -349,4 +355,55 @@ span.title-text {
   font-weight: 500;
   color: #101010;
   margin: 10px 0 0 0;
+}
+
+.hero-first-col,
+.detail-container {
+  animation: fadeInDown 1.5s ease-out forwards;
+  z-index: -1;
+
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-second-col {
+  animation: fadeInRight 1.5s ease-out forwards;
+  z-index: -1;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(40%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+img#vector-1 {
+  animation: fadeIn 2s ease-in forwards;
+  z-index: -1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
