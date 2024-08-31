@@ -408,20 +408,29 @@ img#vector-1 {
   }
 }
 
-.detail-container {
+.my-detail {
   opacity: 0;
-  transform: translateY(-20%);
+  transform: translateX(20%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
-.detail-container.visible {
+.my-detail.visible {
   opacity: 1;
   transform: translateY(0);
 }
+.my-services {
+  opacity: 0;
+  transform: translateX(20%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
 
+.my-services.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 .contents {
   opacity: 0;
-  transform: translateY(-20%);
+  transform: translateX(-20%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
