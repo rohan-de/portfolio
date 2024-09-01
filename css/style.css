@@ -338,12 +338,20 @@ span.title-text {
   flex: unset;
   height: 175px;
   background: #fff;
-  width: 24.1%;
+  width: 32.1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 11px;
+  opacity: 0;
+  transform: translateX(-10%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.skills-container.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .sr-vc {
@@ -408,20 +416,31 @@ img#vector-1 {
   }
 }
 
-.detail-container {
+.my-detail {
   opacity: 0;
-  transform: translateX(-20%);
+  transform: translateX(-10%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
-.detail-container.visible {
+.my-detail.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.my-services {
+  opacity: 0;
+  transform: translateX(-10%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.my-services.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
 .contents {
   opacity: 0;
-  transform: translateY(-20%);
+  transform: translateY(-10%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
@@ -432,7 +451,7 @@ img#vector-1 {
 
 .sr-vc {
   opacity: 0;
-  transform: translateY(-20%);
+  transform: translateY(-10%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
@@ -443,7 +462,7 @@ img#vector-1 {
 
 .hero-first-col {
   opacity: 0;
-  transform: translateX(-20%);
+  transform: translateY(-10%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
@@ -454,7 +473,7 @@ img#vector-1 {
 
 .hero-second-col {
   opacity: 0;
-  transform: translateX(40%);
+  transform: translateX(-10%);
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
