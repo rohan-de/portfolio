@@ -358,7 +358,7 @@ span.title-text {
   margin: 10px 0 0 0;
 }
 
-.hero-first-col {
+/* .hero-first-col {
   animation: fadeInDown 1.5s ease-out forwards;
   z-index: -1;
 
@@ -374,9 +374,9 @@ span.title-text {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 
-.hero-second-col {
+/* .hero-second-col {
   animation: fadeInRight 1.5s ease-out forwards;
   z-index: -1;
 }
@@ -391,7 +391,7 @@ span.title-text {
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 img#vector-1 {
   animation: fadeIn 2s ease-in forwards;
@@ -439,4 +439,26 @@ img#vector-1 {
 .sr-vc.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.hero-first-col {
+  opacity: 0;
+  transform: translateX(-20%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.hero-first-col.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero-second-col {
+  opacity: 0;
+  transform: translateX(40%);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.hero-second-col.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
